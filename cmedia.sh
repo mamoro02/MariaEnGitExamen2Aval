@@ -15,4 +15,4 @@ if [ $1 == $ciudad ];
 done
 
 resultado=$((sum/j))
-echo "La media de $1 es $resultado"
+echo "$resultado"
