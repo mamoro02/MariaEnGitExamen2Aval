@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "De que ciudad quieres calcular el consumo: " cuidad
+read -p "¿De que ciudad quieres calcular el consumo? " cuidad
 
 lineas=`cat ./consumo.txt | wc -l`
 valor=0
